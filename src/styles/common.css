@@ -1,0 +1,49 @@
+:root {
+  --primary: #6b1912;
+  --secondary: #dc702f;
+  --tertiary: #95ac16;
+  --quatrinary: #3b671a;
+  --light: #ecdfbf;
+  --soLight: #fcfdfb;
+  --hover: #778db1;
+  --border-radius: 0.3rem;
+}
+
+.page {
+  background-image: url("../images/background-image.jpg");
+  background-size: cover;
+  height: 71vh;
+}
+
+header {
+  margin: 0 auto;
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.nav{
+  padding-top: 50px;
+}
+.nav-item a {
+  color: var(--light);
+}
+
+.active {
+  color: var(--secondary);
+}
+.nav-item a:hover {
+  color: var(--hover);
+}
+
+footer {
+ /* height: 10vh;*/
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: var(--quatrinary);
+  color: var(--light);
+}
