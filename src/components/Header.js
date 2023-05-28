@@ -6,7 +6,7 @@ import "../styles/common.css";
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <header className="header d-flex flex-column flex-wrap justify-content-center ali">
+    <header className="header d-flex flex-column flex-wrap justify-content-center">
       <div class="row align-items-start">
         <div class="col">      
         </div>
