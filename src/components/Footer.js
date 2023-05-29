@@ -1,8 +1,5 @@
 import React from 'react';
 import "../styles/common.css";
-import linkedinImage from '../images/linkedin.png';
-import githubImage from '../images/github.png';
-import mediumImage from '../images/medium.png';
 
 function Footer({ currentPage, handlePageChange }) {
     return (

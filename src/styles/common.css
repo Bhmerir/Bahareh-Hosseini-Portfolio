@@ -7,6 +7,7 @@
   --soLight: #fcfdfb;
   --hover: #778db1;
   --border-radius: 0.3rem;
+  --background : #e6c76d;
 }
 
 .page {
@@ -32,10 +33,11 @@ header h1 {
 }
 .nav-item a {
   color: var(--light);
+  font-weight: bold;
 }
 
-.nav-item a:active {
-  color: var( --quatrinary);
+.nav-item a.active {
+  color: var( --secondary);
 }
 
 .active {
@@ -57,8 +59,9 @@ footer {
   height: 100%;
   width: 50vw;
   text-align: justify;
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 10px;
+  line-height: 30px;
 }
 .about-page{
   padding-top: 10px;
@@ -89,3 +92,85 @@ footer {
   background-image: url("../images/linkedin.png");
   background-size: cover;
 }
+
+.portfolio-page{
+  background-color: var(--background);
+}
+
+.card{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  height: 500px;
+  transition: width 1s, height 1s ease-in-out;
+}
+
+.card:hover{
+  box-shadow: 20px 20px 20px var(--header-bg-color);
+  width: 83%;
+  height: 53%
+}
+
+.card-title,
+.card-body a{
+  color: var(--secondary);
+}
+.card-body a{
+  height: 30px;
+}
+.card-body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.card-body a:hover{
+  color: var(--quatrinary);
+}
+
+.card-body{
+  text-align: justify;
+  background-color: var(--light);
+}
+
+.link{
+  
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.deploy{
+  background-image: url("../images/deploy.png");
+}
+
+.github{
+  background-color: var(--soLight);
+  background-image: url("../images/github.png");
+}
+
+.skill{
+  text-align: center;
+  margin-right: 5px;
+  width:100px;
+  height:30px;
+  background-color: var(--tertiary);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top{
+  height:50%
+}
+
+.my-photo{
+  float: left;
+  margin:10px 20px 10px 48px;
+  width: 200px;
+  height:200px;
+}
+
+.custom-prj-img{
+  height: 230px;
+}
+

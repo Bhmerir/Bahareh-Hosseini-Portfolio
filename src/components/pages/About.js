@@ -1,10 +1,15 @@
 import React from 'react';
-
 import "../../styles/common.css";
+import myPhoto from "../../images/my-photo.jpg"
 
 function About() {
     return (
         <div class="page about-page">
+            <div className="row ">
+                <div className="col-md-4 mb-4 d-flex justify-content-start">
+                    <img src={myPhoto} className="my-photo" alt="Bahareh" />
+                </div>
+            </div>
             <h2 class="about-header pt-3 ps-5">About Me</h2>
             <p class="about-p ps-5">
                 To tell about myself, I have a bachelor of science in software engineering, and about 5 years of experience in this field, which involves designing, programming,
