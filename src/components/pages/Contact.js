@@ -88,7 +88,7 @@ function Contact() {
         <div className="page contact-page">
             <div className="col-5 contact-form rounded-2 m-5">       
                 <div className="mb-3">
-                    <label htmlFor="nameInput" className="form-label">Name</label>
+                    <label htmlFor="nameEl" className="form-label">Name</label>
                     <input 
                         value= {name}
                         name= "name" 
@@ -96,13 +96,13 @@ function Contact() {
                         onBlur= {handleBlur}
                         type= "text"
                         className= "form-control" 
-                        id= "name"
+                        id= "nameEl"
                         placeholder= "name"
                         autoFocus
                     />
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="emailInput" className="form-label">Email address</label>
+                    <label htmlFor="emailEl" className="form-label">Email address</label>
                     <input 
                         value= {email}
                         name= "email" 
@@ -110,19 +110,19 @@ function Contact() {
                         onBlur= {handleBlur}
                         type= "text"
                         className= "form-control" 
-                        id= "email"
+                        id= "emailEl"
                         placeholder= "email"
                     />
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="messageTextarea" className="form-label">Message</label>
+                    <label htmlFor="messageEl" className="form-label">Message</label>
                     <textarea 
                         value= {message}
                         name= "message" 
                         onChange= {handleInputChange}
                         onBlur= {handleBlur}
                         className="form-control" 
-                        id="messageTextarea" 
+                        id="messageEl" 
                         rows="3"
                         placeholder= "message"
                     >    
