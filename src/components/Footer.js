@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/common.css";
+import "../assets/styles/common.css";
 
 function Footer({ currentPage, handlePageChange }) {
     return (

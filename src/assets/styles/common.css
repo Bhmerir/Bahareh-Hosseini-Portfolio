@@ -11,9 +11,9 @@
 }
 
 .page {
-  background-image: url("../images/background-image.jpg");
+  background-image: url("../../assets/images/background-image.jpg");
   background-size: cover;
-  height: 75%; 
+  height: 80%; 
 }
 
 header {
@@ -55,7 +55,8 @@ footer {
   color: var(--light);
 }
 
-.about-p{
+.about-p,
+.resume{
   height: 100%;
   width: 50vw;
   text-align: justify;
@@ -63,7 +64,8 @@ footer {
   padding-top: 10px;
   line-height: 30px;
 }
-.about-page{
+.about-page,
+.resume-page{
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -79,17 +81,17 @@ footer {
 }
 
 .medium-img{
-  background-image: url("../images/medium.png");
+  background-image: url("../../assets/images/medium.png");
   background-size: cover;
 }
 
 .github-img{
-  background-image: url("../images/github.png");
+  background-image: url("../../assets/images/github.png");
   background-size: cover;
 }
 
 .linkedin-img{
-  background-image: url("../images/linkedin.png");
+  background-image: url("../../assets/images/linkedin.png");
   background-size: cover;
 }
 
@@ -141,12 +143,12 @@ footer {
 }
 
 .deploy{
-  background-image: url("../images/deploy.png");
+  background-image: url("../../assets/images/deploy.png");
 }
 
 .github{
   background-color: var(--soLight);
-  background-image: url("../images/github.png");
+  background-image: url("../../assets/images/github.png");
 }
 
 .skill{
@@ -168,9 +170,25 @@ footer {
   margin:10px 20px 10px 48px;
   width: 200px;
   height:200px;
+ /* border-radius: 120px;*/
 }
 
 .custom-prj-img{
   height: 230px;
 }
 
+.resume a{
+  color: var(--secondary);
+}
+
+.resume a:hover{
+  color: var(--quatrinary);
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.email span{
+  color: var(--secondary);
+}

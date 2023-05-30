@@ -1,11 +1,11 @@
 import React from 'react';
-import "../../styles/common.css";
-import bigSkyLodges from "../../images/big-sky-lodges.png"
-import voiceOfPeople from "../../images/voice-of-people.png"
-import barista from "../../images/barista.png"
-import codingQuiz from "../../images/coding-quiz.png"
-import weatherForecast from "../../images/weather-forecast.png"
-import employeeTracker from "../../images/employee-tracker.png"
+import "../../assets/styles/common.css";
+import bigSkyLodges from "../../assets/images/big-sky-lodges.png"
+import voiceOfPeople from "../../assets/images/voice-of-people.png"
+import barista from "../../assets/images/barista.png"
+import codingQuiz from "../../assets/images/coding-quiz.png"
+import weatherForecast from "../../assets/images/weather-forecast.png"
+import employeeTracker from "../../assets/images/employee-tracker.png"
 
 function Portfolio() {
     return (

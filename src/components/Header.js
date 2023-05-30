@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
 
-import "../styles/common.css";
+import "../assets/styles/common.css";
 
 
 function Header({ currentPage, handlePageChange }) {

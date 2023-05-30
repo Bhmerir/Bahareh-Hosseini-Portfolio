@@ -3,6 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -15,6 +16,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
+    return <Resume />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
