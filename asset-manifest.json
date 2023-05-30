@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/Bahareh-Hosseini-Portfolio/static/css/main.b07e1c95.css",
+    "main.css": "/Bahareh-Hosseini-Portfolio/static/css/main.905cf300.css",
     "main.js": "/Bahareh-Hosseini-Portfolio/static/js/main.d37602b4.js",
     "static/media/big-sky-lodges.png": "/Bahareh-Hosseini-Portfolio/static/media/big-sky-lodges.deea31d5c24bd85219f1.png",
     "static/media/barista.png": "/Bahareh-Hosseini-Portfolio/static/media/barista.108ea4b62a415a04963e.png",
     "static/media/weather-forecast.png": "/Bahareh-Hosseini-Portfolio/static/media/weather-forecast.19cd7c8499b57f6113e5.png",
     "static/media/my-photo.jpg": "/Bahareh-Hosseini-Portfolio/static/media/my-photo.355d1e6a03a3976839f5.jpg",
     "static/media/voice-of-people.png": "/Bahareh-Hosseini-Portfolio/static/media/voice-of-people.e4d2c068b1d8001073e2.png",
-    "static/media/background-image.jpg": "/Bahareh-Hosseini-Portfolio/static/media/background-image.2d85588832e2fd7acda1.jpg",
     "static/media/employee-tracker.png": "/Bahareh-Hosseini-Portfolio/static/media/employee-tracker.67126e81265b60f3eb5d.png",
     "static/media/coding-quiz.png": "/Bahareh-Hosseini-Portfolio/static/media/coding-quiz.d83d94c14e1f6bf3e9a3.png",
     "static/media/medium.png": "/Bahareh-Hosseini-Portfolio/static/media/medium.d76a2a6bdc32d03c675f.png",
     "static/media/github.png": "/Bahareh-Hosseini-Portfolio/static/media/github.baa8492565d00f6df19c.png",
     "index.html": "/Bahareh-Hosseini-Portfolio/index.html",
-    "main.b07e1c95.css.map": "/Bahareh-Hosseini-Portfolio/static/css/main.b07e1c95.css.map",
+    "main.905cf300.css.map": "/Bahareh-Hosseini-Portfolio/static/css/main.905cf300.css.map",
     "main.d37602b4.js.map": "/Bahareh-Hosseini-Portfolio/static/js/main.d37602b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b07e1c95.css",
+    "static/css/main.905cf300.css",
     "static/js/main.d37602b4.js"
   ]
 }
