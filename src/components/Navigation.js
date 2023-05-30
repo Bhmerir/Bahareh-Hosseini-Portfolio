@@ -1,10 +1,9 @@
 import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
-    console.log(currentPage)
     return (
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
+        <ul className="nav justify-content-end">
+            <li className="nav-item">
                 <a
                     href="#About"
                     onClick={() => handlePageChange('About')}

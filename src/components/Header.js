@@ -7,13 +7,13 @@ import "../assets/styles/common.css";
 function Header({ currentPage, handlePageChange }) {
   return (
     <header className="header d-flex flex-column flex-wrap justify-content-center">
-      <div class="row align-items-start">
-        <div class="col">      
+      <div className="row d-flex align-items-start">
+        <div className="col-4">      
         </div>
-        <div class="col">
+        <div className="col-4">
           <h1 >Bahareh Hosseini</h1>
         </div>
-        <div class="col">
+        <div className="col-4">
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
         </div>
       </div>

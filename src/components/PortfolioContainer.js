@@ -4,10 +4,10 @@ import Footer from './Footer';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
-  console.log(currentPage);
 
   const renderPage = () => {
     if (currentPage === 'About') {
@@ -16,13 +16,16 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
     return <Resume />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div class="d-flex flex-column flex-wrap justify-content-center">
+    <div className="d-flex flex-column flex-wrap justify-content-center portfolio-container">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer/>
