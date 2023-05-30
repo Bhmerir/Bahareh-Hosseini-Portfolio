@@ -123,7 +123,7 @@ function Contact() {
                         onBlur= {handleBlur}
                         className="form-control" 
                         id="messageEl" 
-                        rows="3"
+                        rows="5"
                         placeholder= "message"
                     >    
                     </textarea>

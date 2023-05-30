@@ -10,10 +10,50 @@
   --background : #e6c76d;
 }
 
+p,
+button,
+input,
+textarea,
+a
+{
+  font-size: 20px !important;
+}
+
+span,
+label,
+.error-message,
+.resume a{
+  font-size: 25px !important;
+}
+h1
+{
+  font-size: 55px !important;
+}
+h2
+{
+  font-size: 45px !important;
+}
+h3
+{
+  font-size: 40px !important;
+}
+h4
+{
+  font-size: 35px !important;
+}
+h5
+{
+  font-size: 30px !important;
+}
+h6
+{
+  font-size: 25px !important;
+}
+
 .page {
   background-image: url("../../assets/images/background-image.jpg");
   background-size: cover;
-  height: 100%; 
+  min-height: 75vh; 
   position: relative;
 }
 
@@ -31,6 +71,7 @@ header h1 {
 
 .nav{
   padding-top: 50px;
+  padding-right: 30px;
 }
 .nav-item a {
   color: var(--light);
@@ -64,7 +105,7 @@ footer {
   text-align: justify;
   font-size: 18px;
   padding-top: 10px;
-  line-height: 30px;
+  line-height: 50px;
 }
 .about-page,
 .resume-page,
@@ -157,11 +198,12 @@ footer {
 .skill{
   text-align: center;
   margin-right: 5px;
-  width:100px;
+  width:110px;
   height:30px;
   background-color: var(--tertiary);
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
 }
 
 .card-img-top{
@@ -178,6 +220,7 @@ footer {
 
 .custom-prj-img{
   height: 230px;
+/*  box-shadow: 12px 12px 2px 1px red !important;*/
 }
 
 .resume a{
@@ -215,3 +258,8 @@ footer {
   margin-left: 35%;
 }
 
+.about-page,
+.contact-page{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
