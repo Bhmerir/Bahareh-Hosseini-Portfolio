@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Bahareh-Hosseini-Portfolio/static/css/main.f2a32a6e.css",
+    "main.css": "/Bahareh-Hosseini-Portfolio/static/css/main.ea70fe3d.css",
     "main.js": "/Bahareh-Hosseini-Portfolio/static/js/main.a1559566.js",
     "static/media/big-sky-lodges.png": "/Bahareh-Hosseini-Portfolio/static/media/big-sky-lodges.deea31d5c24bd85219f1.png",
     "static/media/barista.png": "/Bahareh-Hosseini-Portfolio/static/media/barista.108ea4b62a415a04963e.png",
@@ -14,11 +14,11 @@
     "static/media/medium.png": "/Bahareh-Hosseini-Portfolio/static/media/medium.d76a2a6bdc32d03c675f.png",
     "static/media/github.png": "/Bahareh-Hosseini-Portfolio/static/media/github.baa8492565d00f6df19c.png",
     "index.html": "/Bahareh-Hosseini-Portfolio/index.html",
-    "main.f2a32a6e.css.map": "/Bahareh-Hosseini-Portfolio/static/css/main.f2a32a6e.css.map",
+    "main.ea70fe3d.css.map": "/Bahareh-Hosseini-Portfolio/static/css/main.ea70fe3d.css.map",
     "main.a1559566.js.map": "/Bahareh-Hosseini-Portfolio/static/js/main.a1559566.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2a32a6e.css",
+    "static/css/main.ea70fe3d.css",
     "static/js/main.a1559566.js"
   ]
 }
