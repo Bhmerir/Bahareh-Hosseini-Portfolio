@@ -33,7 +33,6 @@ function Portfolio() {
                             <p className="skill">Node.js</p>
                             <p className="skill">Sequelize</p>
                             <p className="skill">Handlebars</p>
-                            <p className="skill">Bcrypt</p>
                             <p className="skill">Anime.js</p>
                         </div>
                     </div>
@@ -82,6 +81,7 @@ function Portfolio() {
                         <div className="card-body d-flex flex-row flex-wrap justify-content-evenly">
                             <p className="skill">Bulma</p>
                             <p className="skill">CSS</p>
+                            <p className="skill">JavaScript</p>
                             <p className="skill">Restful APIs</p>
                             <p className="skill">Anime.js</p>
                         </div>
@@ -149,7 +149,7 @@ function Portfolio() {
                                 </a>
                             </div>
                             <h5 className="card-title">Web Development Coding Quiz</h5>
-                            <p className="card-text">This project is a quiz that test the user's knowledge of 
+                            <p className="card-text">This project is a score-based quiz that examine the user's knowledge of 
                             coding JavaScript, HTML, and CSS in a limited time.</p>
                         </div>
                         <div className="card-body d-flex flex-row flex-wrap justify-content-evenly">

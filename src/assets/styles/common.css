@@ -69,24 +69,22 @@ span
 .page {
   background-image: url("../../assets/images/background-image.jpg");
   background-size: cover;
- /* min-height: 75vh; */
+  min-height: 75vh; 
   position: relative;
 }
 
 header {
   background-color: var(--primary);
   color: var(--light);
-  width: 100%;
 
 }
 
 header h1 {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 .nav{
-  padding-top: 50px;
   padding-right: 30px;
 }
 .nav-item a {
