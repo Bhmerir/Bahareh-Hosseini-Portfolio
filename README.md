@@ -32,7 +32,7 @@ This portfolio has the different sections such as About Me which gives a brief d
 
 <br>
 
-[Link of deployed site](https://bhmerir.github.io/Bahareh-Hosseini-Portfolio)
+[Link of the deployed site](https://bhmerir.github.io/Bahareh-Hosseini-Portfolio)
 
 <br>
 
