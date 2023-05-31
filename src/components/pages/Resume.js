@@ -15,7 +15,7 @@ function Resume() {
             <br/>
             <h4 className="ps-5 resume-section">Work Experience</h4>
             <br/>
-            <h5 className="ps-5">Retail Sales Associate, TJ Maxx., Santa Clara, California (April 2022-March 2023)</h5>
+            <h5 className="ps-5">Retail Sales Associate, TJ Maxx., Santa Clara, California (April 2022 - March 2023)</h5>
             <ul className="ps-5">
                 <li className="ms-5 resume">
                     Achieved more than 20 customer credit lines. 
@@ -24,7 +24,7 @@ function Resume() {
                     Performed tasks of cashier and organized women’s clothing sections.
                 </li>
             </ul>
-            <h5 className="ps-5">General Practitioner, Iran, (October 2012-July 2020)</h5>
+            <h5 className="ps-5">General Practitioner, Iran, (October 2012 - July 2020)</h5>
             <ul className="ps-5">
                 <li className="ms-5 resume">
                     Performed Emergency room tasks both in night and day shifts in various hospitals.
