@@ -12,11 +12,11 @@ function About() {
             </div>
             <h3 className="about-header pt-3 ps-5">About Me</h3>
             <p className="about-p ps-5">
-                To tell about myself, I have a bachelor of science in software engineering, and about 5 years of experience in this field, which involves designing, programming,
-                and technically supporting financial software systems such as accounting, fiduciary, banking transactions, product sales,
-                employee salary and benefit management, and customer relationship management (CRM).
-                Also, I have a full-stack web development certificate
-                from UC Berkeley extension.
+            A well experienced software engineer with developed skills in Full-Stack Development, SQL Server, 
+            C++ builder, Delphi, and Python, seasoned in the field of accounting and banking financial systems, 
+            excellent team worker who helps to bring the maximum synergy, and self-starter with ability to work 
+            in fast-paced environments I am authorized to work in the United States. Physically located in the Silicon Valley, 
+            and open to positions in the Bay area and remotely all over the United States.
             </p>
         </div>
     );

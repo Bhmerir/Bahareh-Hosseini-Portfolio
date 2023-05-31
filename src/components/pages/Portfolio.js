@@ -101,7 +101,7 @@ function Portfolio() {
                                     <p className="link github"></p>
                                 </a>
                             </div>
-                            <h5 className="card-title">Weather Forecast Travel Guideline</h5>
+                            <h5 className="card-title">Weather Forecast Travel Guide App</h5>
                             <p className="card-text">This application gives the weather forecast including today and the 
                             next five days for each searched city.</p>
                         </div>

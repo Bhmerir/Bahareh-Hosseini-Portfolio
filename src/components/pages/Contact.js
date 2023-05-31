@@ -129,7 +129,7 @@ function Contact() {
                     </textarea>
                 </div>
                 <p className="form-label error-message">{errorMessage}</p>
-                <button type="button" onClick={handleFormSubmit} className="btn btn-success email-btn ps-5 pe-5">Send Email</button>
+                <button type="button" onClick={handleFormSubmit} className="btn btn-success email-btn ps-5 pe-5">SEND EMAIL</button>
             </div>
             <div className="col-7">
                 

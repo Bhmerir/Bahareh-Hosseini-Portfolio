@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
 :root {
   --primary: #6b1912;
   --secondary: #dc702f;
@@ -8,6 +9,7 @@
   --box-shadow: #4f4f4f;
   --background : #e6c76d;
 }
+
 
 p,
 button,
@@ -20,6 +22,15 @@ a
 }
 
 
+h1,
+h2,
+h3,
+h4,
+.nav-item a{
+  font-family: 'Tangerine', serif !important;
+  font-weight: bolder;
+}
+
 label,
 .error-message,
 .resume a{
@@ -27,26 +38,30 @@ label,
 }
 h1
 {
-  font-size: 45px !important;
+  font-size: 100px !important;
 }
 h2
 {
-  font-size: 40px !important;
+  font-size: 90px !important;
 }
 h3
 {
-  font-size: 35px !important;
+  font-size: 85px !important;
 }
 h4
 {
-  font-size: 30px !important;
+  font-size: 75px !important;
 }
 h5
 {
   font-size: 27px !important;
 }
-span,
-h6
+
+.nav-item a{
+  font-size: 45px !important;
+}
+h6,
+span
 {
   font-size: 23px !important;
 }
@@ -76,7 +91,6 @@ header h1 {
 }
 .nav-item a {
   color: var(--light);
-  font-weight: bold;
 }
 
 .nav-item a.active {
@@ -149,7 +163,7 @@ footer {
 }
 
 .card{
-  box-shadow: 5px 5px 10px var(--box-shadow);
+  box-shadow: 3px 3px 10px var(--box-shadow);
   width: 80%;
   height: 500px;
   transition: width 1s, height 1s ease-in-out;
@@ -253,6 +267,13 @@ footer {
   width: 85% !important; 
 }
 
+.form-control{
+  box-shadow: 4px 4px 10px var(--box-shadow);
+}
+.form-control:focus{
+  box-shadow: 4px 4px 10px var(--primary) !important;
+}
+
 .form-label{
   font-weight: bolder;
 }
@@ -263,8 +284,12 @@ footer {
 
 .email-btn{
   margin-left: 35%;
+  box-shadow: 4px 4px 10px var(--box-shadow);
 }
-
+.email-btn:hover{
+  color: var(--primary) !important;
+  box-shadow: 4px 4px 10px var(--primary);
+}
 .about-page,
 .contact-page{
   padding-top: 5%;
