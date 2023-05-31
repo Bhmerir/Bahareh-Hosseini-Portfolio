@@ -1,18 +1,20 @@
 import React from 'react';
 import "../../assets/styles/common.css";
+import resume from "../../assets/document/Bahareh Hosseini Resume-2023.pdf"
 
 function Resume() {
     return (
-        <div className="page resume-page">
-            <h6 className="pt-3 ps-5 resume">Download my <a href='https://drive.google.com/file/d/14YyPp3O4kiJ07KBx4AhHj78Cw9f-rH-F/view?usp=sharing' download>Resume</a></h6>
+        <div className="resume-page">
+            <h6 className="pt-3 ps-5 resume">Download my <a href={resume} download target='_blank' rel='noreferrer'>Resume</a></h6>
             <h6 className="ps-5 email">My Email Address: <span>mer_ir@yahoo.com</span></h6>
             <br/>
-            <h4 className="ps-5">Employment Eligibility</h4>
+            <h4 className="ps-5 resume-section">Employment Eligibility</h4>
             <p className="ps-5 resume">
                 Permanent Resident of the United States
             </p>
             <br/>
-            <h4 className="ps-5">Work Experience</h4>
+            <h4 className="ps-5 resume-section">Work Experience</h4>
+            <br/>
             <h5 className="ps-5">Retail Sales Associate, TJ Maxx., Santa Clara, California (April 2022-March 2023)</h5>
             <ul className="ps-5">
                 <li className="ms-5 resume">
@@ -43,7 +45,8 @@ function Resume() {
                 </li>
             </ul>
             <br/>
-            <h4 className="ps-5">Education</h4>
+            <h4 className="ps-5 resume-section">Education</h4>
+            <br/>
             <h5 className="ps-5">Certificate, Full Stack Web Development</h5>
             <p className="ms-5 resume">
                 UC Berkeley Extension, June 2023.  
@@ -72,7 +75,8 @@ function Resume() {
                 GPA: 3.24 / 4
             </p>
             <br/>
-            <h4 className="ps-5">Technical Skills</h4>
+            <h4 className="ps-5 resume-section">Technical Skills</h4>
+            <br/>
             <h5 className="ps-5 italic-text">Computer Literacy</h5>
             <p className="ms-5 resume">
                 Proficient in Microsoft SQL Server, MySQL, MongoDB, IndexedDB, C++, C++ builder, Delphi, Python, GitHub, 

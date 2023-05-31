@@ -10,7 +10,7 @@ import employeeTracker from "../../assets/images/employee-tracker.png"
 function Portfolio() {
     return (
         <div className="d-flex flex-column flex-wrap justify-content-center portfolio-page">
-            <div className="row align-items-center mt-5">
+            <div className="d-flex flex-wrap align-items-center mt-5">
                 <div className="col-md-4 mb-4 d-flex justify-content-center">
                     <div className="card">
                         <img src={bigSkyLodges} className="card-img-top custom-prj-img" alt="Big Sky Lodges" />
@@ -23,11 +23,12 @@ function Portfolio() {
                                     <p className="link github"></p>
                                 </a>
                             </div>
-                            <h4 className="card-title">Big Sky Lodges</h4>
+                            <h5 className="card-title">Big Sky Lodges</h5>
                             <p className="card-text">A full-stack application which offers a secure 
-                            and user-friendly interface for managing hotel reservations across multiple branches.</p>
+                            and user-friendly interface for managing hotel reservations across multiple branches 
+                            based on different room types.</p>
                         </div>
-                        <div className="card-body d-flex flex-row flex-wrap justify-content-evenly">
+                        <div className="card-body d-flex flex-row flex-wrap justify-content-around">
                             <p className="skill">Express</p>
                             <p className="skill">Node.js</p>
                             <p className="skill">Sequelize</p>
@@ -49,7 +50,7 @@ function Portfolio() {
                                     <p className="link github"></p>
                                 </a>
                             </div>
-                            <h4 className="card-title">Voice of People</h4>
+                            <h5 className="card-title">Voice of People</h5>
                             <p className="card-text">A CMS-style platform in which people can leave a post in form of a text, 
                             and interact with the other commentator by leaving a comment on their post.</p>
                         </div>
@@ -74,7 +75,7 @@ function Portfolio() {
                                     <p className="link github"></p>
                                 </a>
                             </div>
-                            <h4 className="card-title">Barista</h4>
+                            <h5 className="card-title">Barista</h5>
                             <p className="card-text">This application will display a list of the names and addresses of cafes with their locations 
                             in bing map when a user input a chosen city in the search box.</p>
                         </div>
@@ -87,7 +88,7 @@ function Portfolio() {
                     </div>
                 </div>
             </div>
-            <div className="row align-items-center mt-5">
+            <div className="d-flex flex-wrap align-items-center mt-5">
                 <div className="col-md-4 mb-4 d-flex justify-content-center">
                     <div className="card">
                         <img src={weatherForecast} className="card-img-top custom-prj-img" alt="Weather Forecast Travel Guide" />
@@ -100,7 +101,7 @@ function Portfolio() {
                                     <p className="link github"></p>
                                 </a>
                             </div>
-                            <h4 className="card-title">Weather Forecast Travel Guide</h4>
+                            <h5 className="card-title">Weather Forecast Travel Guideline</h5>
                             <p className="card-text">This application gives the weather forecast including today and the 
                             next five days for each searched city.</p>
                         </div>
@@ -122,9 +123,9 @@ function Portfolio() {
                                     <p className="link github"></p>
                                 </a>
                             </div>
-                            <h4 className="card-title">Streamlined Employee Tracker</h4>
+                            <h5 className="card-title">Streamlined Employee Tracker</h5>
                             <p className="card-text">This human resource program lets the user 
-                            define the different departments of a company, the roles, 
+                            define the different departments of a company, the roles of each department, 
                             the employees, and their managers.</p>
                         </div>
                         <div className="card-body d-flex flex-row flex-wrap justify-content-evenly">
@@ -147,7 +148,7 @@ function Portfolio() {
                                     <p className="link github"></p>
                                 </a>
                             </div>
-                            <h4 className="card-title">Web Development Coding Quiz</h4>
+                            <h5 className="card-title">Web Development Coding Quiz</h5>
                             <p className="card-text">This project is a quiz that test the user's knowledge of 
                             coding JavaScript, HTML, and CSS in a limited time.</p>
                         </div>
