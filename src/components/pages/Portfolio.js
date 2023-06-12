@@ -3,7 +3,7 @@ import "../../assets/styles/common.css";
 import bigSkyLodges from "../../assets/images/big-sky-lodges.png"
 import voiceOfPeople from "../../assets/images/voice-of-people.png"
 import barista from "../../assets/images/barista.png"
-import codingQuiz from "../../assets/images/coding-quiz.png"
+import cluHub from "../../assets/images/club-hub.png"
 import weatherForecast from "../../assets/images/weather-forecast.png"
 import employeeTracker from "../../assets/images/employee-tracker.png"
 
@@ -11,6 +11,32 @@ function Portfolio() {
     return (
         <div className="d-flex flex-column flex-wrap justify-content-center portfolio-page">
             <div className="d-flex flex-wrap align-items-center mt-5">
+            <div className="col-md-4 mb-4 d-flex justify-content-center">
+                    <div className="card">
+                        <img src={cluHub} className="card-img-top custom-prj-img" alt="Club Hub" />
+                        <div className="card-body">
+                            <div className="d-flex flex-inline pb-2">
+                                <a href="https://clubhub.herokuapp.com/" className="card-link">
+                                    <p className="link deploy"></p>
+                                </a>
+                                <a href="https://github.com/tdusenbury/Club-Hub" className="card-link">
+                                    <p className="link github"></p>
+                                </a>
+                            </div>
+                            <h5 className="card-title">Club Hub</h5>
+                            <p className="card-text">Club Hub is a website that the users can create some events 
+                            and the other members can RSVP for each event. They can also revoke their RSVP.</p>
+                        </div>
+                        <div className="card-body d-flex flex-row flex-wrap justify-content-evenly">
+                            <p className="skill">React</p>
+                            <p className="skill">GraphQL</p>
+                            <p className="skill">Mongoose</p>
+                            <p className="skill">Express</p>
+                            <p className="skill">JWP</p>
+
+                        </div>
+                    </div>
+                </div>
                 <div className="col-md-4 mb-4 d-flex justify-content-center">
                     <div className="card">
                         <img src={bigSkyLodges} className="card-img-top custom-prj-img" alt="Big Sky Lodges" />
@@ -62,7 +88,10 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 mb-4 d-flex justify-content-center">
+                
+            </div>
+            <div className="d-flex flex-wrap align-items-center mt-5">
+            <div className="col-md-4 mb-4 d-flex justify-content-center">
                     <div className="card">
                         <img src={barista} className="card-img-top custom-prj-img" alt="Barista" />
                         <div className="card-body">
@@ -87,8 +116,6 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="d-flex flex-wrap align-items-center mt-5">
                 <div className="col-md-4 mb-4 d-flex justify-content-center">
                     <div className="card">
                         <img src={weatherForecast} className="card-img-top custom-prj-img" alt="Weather Forecast Travel Guide" />
@@ -136,30 +163,7 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 mb-4 d-flex justify-content-center">
-                <div className="card">
-                        <img src={codingQuiz} className="card-img-top custom-prj-img" alt="Web Development Coding Quiz" />
-                        <div className="card-body">
-                            <div className="d-flex flex-inline pb-2">
-                                <a href="https://bhmerir.github.io/web-development-coding-quiz" className="card-link">
-                                    <p className="link deploy"></p>
-                                </a>
-                                <a href="https://github.com/Bhmerir/web-development-coding-quiz" className="card-link">
-                                    <p className="link github"></p>
-                                </a>
-                            </div>
-                            <h5 className="card-title">Web Development Coding Quiz</h5>
-                            <p className="card-text">This project is a score-based quiz that examine the user's knowledge of 
-                            coding JavaScript, HTML, and CSS in a limited time.</p>
-                        </div>
-                        <div className="card-body d-flex flex-row flex-wrap justify-content-evenly">
-                            <p className="skill">HTML</p>
-                            <p className="skill">CSS</p>
-                            <p className="skill">JavaScript</p>
-                            <p className="skill">Git</p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     );
