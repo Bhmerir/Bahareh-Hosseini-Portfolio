@@ -79,13 +79,15 @@ function Resume() {
             <br/>
             <h5 className="ps-5 italic-text">Computer Literacy</h5>
             <p className="ms-5 resume">
-                Proficient in Microsoft SQL Server, MySQL, MongoDB, IndexedDB, C++, C++ builder, Delphi, Python, GitHub, 
-                Git, HTML5, ES6, CSS, Bootstrap, Bulma, JavaScript, JQuery, Node.js, Express.js, React, State, MERN, 
-                Heroku, Unit Testing w/ JEST, JSON, Fetch, AJAX, Insomnia/Postman, REST APIs, Third-party API, 
-                Server-side API, Web Service API, Anime.js, Day.js, Handlebars, Sequalize, Mongoose, Session Module, 
-                Bcrypt, Express-handlebars Module, Express-session Module, Dotenv Module, Pseudocode, Analytical Skill, 
-                Problem Solving, Object-Oriented Programming(OOP), Front-End Development, Back-End Development, 
-                and Full-stack Development.
+            Proficient in Microsoft SQL Server, MySQL, MongoDB, IndexedDB, C++, C++ builder, Delphi, Python, GitHub, 
+            Git, HTML5, ES6, CSS, Bootstrap, Bulma, JavaScript, JQuery, Node.js, Express.js, React, React hooks, JSX, 
+            State, MERN, Apollo GraphQL, Redux, Heroku, Unit Testing w/ JEST, JSON, Fetch, AJAX, Insomnia/Postman, 
+            REST APIs, Third-party API, Server-side API, Web Service API, Stripe API, Context API, Anime.js, Day.js, 
+            Handlebars.js, Sequelize ORM, Mongoose ODM, Session Module, Bcrypt, Express-handlebars Module, 
+            Express-session Module, Dotenv Module, JWT (JavaScript Web Token), Webpack, PWA, Pseudocode, 
+            Analytical Skill, Problem Solving, Imperative Programming, Declarative Programming, 
+            Data Structures and Algorithms, Object-Oriented Programming(OOP), Front-End Development, Back-End Development, 
+            and Full-stack Development.
             </p>
             <br/>
             <h5 className="ps-5 italic-text">Medical Skills</h5>
