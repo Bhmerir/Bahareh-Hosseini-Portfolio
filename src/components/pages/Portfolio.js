@@ -3,7 +3,7 @@ import "../../assets/styles/common.css";
 import bigSkyLodges from "../../assets/images/big-sky-lodges.png"
 import voiceOfPeople from "../../assets/images/voice-of-people.png"
 import barista from "../../assets/images/barista.png"
-import cluHub from "../../assets/images/club-hub.png"
+import clubHub from "../../assets/images/club-hub.png"
 import weatherForecast from "../../assets/images/weather-forecast.png"
 import employeeTracker from "../../assets/images/employee-tracker.png"
 
@@ -13,7 +13,7 @@ function Portfolio() {
             <div className="d-flex flex-wrap align-items-center mt-5">
             <div className="col-md-4 mb-4 d-flex justify-content-center">
                     <div className="card">
-                        <img src={cluHub} className="card-img-top custom-prj-img" alt="Club Hub" />
+                        <img src={clubHub} className="card-img-top custom-prj-img" alt="Club Hub" />
                         <div className="card-body">
                             <div className="d-flex flex-inline pb-2">
                                 <a href="https://clubhub.herokuapp.com/" className="card-link">
