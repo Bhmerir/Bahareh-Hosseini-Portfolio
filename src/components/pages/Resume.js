@@ -49,9 +49,9 @@ function Resume() {
             <br/>
             <h5 className="ps-5">Certificate, Full Stack Web Development</h5>
             <p className="ms-5 resume">
-                UC Berkeley Extension, June 2023.  
+                UC Berkeley Extension, Berkeley, California, June 2023.  
                 <br/>
-                GPA: 3.94 / 4
+                GPA: 3.97 / 4
                 </p>
             <h5 className="ps-5">Doctor of Philosophy, Medicine</h5>
             <p className="ms-5 resume">
