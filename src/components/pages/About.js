@@ -12,11 +12,14 @@ function About() {
             </div>
             <h3 className="about-header pt-3 ps-5">About Me</h3>
             <p className="about-p ps-5">
-            A well experienced software engineer with developed skills in Full-Stack Development, SQL Server, 
-            C++ builder, Delphi, and Python, seasoned in the field of accounting and banking financial systems, 
+            A well experienced software engineer with developed skills in Full-Stack Development, Python, 
+            SQL Server, C++ builder, and Delphi seasoned in the field of accounting and banking financial systems, 
             excellent team worker who helps to bring the maximum synergy, and self-starter with ability to work 
-            in fast-paced environments I am authorized to work in the United States. Physically located in the Silicon Valley, 
-            and open to positions in the Bay area and remotely all over the United States.
+            in fast-paced environments. 
+            A facilitator of strong communication, collaboration, problem-solving, and analytical skills with 
+            strong ability to design, build, and maintain websites from conception to production. 
+            I am authorized to work in the United States. Physically located in the Silicon Valley, and open to 
+            positions in the Bay area and remotely all over the United States.
             </p>
         </div>
     );
