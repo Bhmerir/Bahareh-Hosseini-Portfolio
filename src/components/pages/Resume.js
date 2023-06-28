@@ -36,12 +36,18 @@ function Resume() {
                     Supported the medical aid relief in an earthquake disaster zone in 2013.
                 </li>
             </ul>
-            <h5 className="ps-5">Software Engineer, Tehran, Iran (Intermittently from 2004 to 2010 for 4 years)</h5>
+            <h5 className="ps-5">Software Engineer, Tarah System company, Tehran, Iran (Oct 2008 - Nov 2010)</h5>
             <ul className="ps-5">
                 <li className="ms-5 resume">
                     Designed, programmed, and technically supported financial software systems such as accounting, 
-                    fiduciary, banking transactions, product sales, and employee salary, benefit managements, 
-                    and customer relationship management (CRM)
+                    fiduciary, banking transactions, product sales, and employee salary and benefit management
+                </li>
+            </ul>
+            <h5 className="ps-5">Software Engineer, Pegah System company, Tehran, Iran (Dec 2004 - Nov 2006)</h5>
+            <ul className="ps-5">
+                <li className="ms-5 resume">
+                    Designed, programmed, and technically supported financial software systems such as accounting, 
+                    fiduciary, banking transactions, product sales, and customer relationship management (CRM)
                 </li>
             </ul>
             <br/>
@@ -77,20 +83,32 @@ function Resume() {
             <br/>
             <h4 className="ps-5 resume-section">Technical Skills</h4>
             <br/>
-            <h5 className="ps-5 italic-text">Computer Literacy</h5>
+            <h5 className="ps-5">Computer Literacy</h5>
+            <br/>
+            <h6 className="ps-5 italic-text">Programming Languages: </h6>
             <p className="ms-5 resume">
-            Proficient in Microsoft SQL Server, MySQL, MongoDB, IndexedDB, C++, C++ builder, Delphi, Python, GitHub, 
-            Git, HTML5, ES6, CSS, Bootstrap, Bulma, JavaScript, JQuery, Node.js, Express.js, React, React hooks, JSX, 
-            State, MERN, Apollo GraphQL, Redux, Heroku, Unit Testing w/ JEST, JSON, Fetch, AJAX, Insomnia/Postman, 
-            REST APIs, Third-party API, Server-side API, Web Service API, Stripe API, Context API, Anime.js, Day.js, 
-            Handlebars.js, Sequelize ORM, Mongoose ODM, Session Module, Bcrypt, Express-handlebars Module, 
-            Express-session Module, Dotenv Module, JWT (JavaScript Web Token), Webpack, PWA, Pseudocode, 
-            Analytical Skill, Problem Solving, Imperative Programming, Declarative Programming, 
-            Data Structures and Algorithms, Object-Oriented Programming(OOP), Front-End Development, Back-End Development, 
-            and Full-stack Development.
+                C++, C++ builder, Delphi, Python, JavaScript
+            </p>
+            <h6 className="ps-5 italic-text">Front-End Technologies:  </h6>
+            <p className="ms-5 resume">
+                HTML5, ES6, CSS, Bootstrap, Bulma, JQuery, React, React hooks, JSX, Redux, 
+                Anime.js, Day.js, Handlebars.js, JSON, Fetch, AJAX, JWT, PWA
+            </p>
+            <h6 className="ps-5 italic-text">Back-End Technologies:   </h6>
+            <p className="ms-5 resume">
+                Microsoft SQL Server, MySQL, MongoDB, IndexedDB, Apollo GraphQL, Node.js, Express.js, 
+                Insomnia/Postman, REST APIs, Third-party API, Server-side API, Web Service API, Stripe API, 
+                Context API, Sequelize ORM, Mongoose ODM, Session Module, Bcrypt, Dotenv Module, Express-session Module, 
+                Express-handlebars Module, Webpack
+            </p>
+            <h6 className="ps-5 italic-text">Other Skills:   </h6>
+            <p className="ms-5 resume">
+                GitHub, Git, Heroku, Unit Testing w/ JEST, State, MERN, Pseudocode, Analytical Skill, Problem Solving, 
+                Imperative Programming, Declarative Programming, Data Structures and Algorithms, Object-Oriented 
+                Programming (OOP), Front-End Development, Back-End Development, Full-stack Development
             </p>
             <br/>
-            <h5 className="ps-5 italic-text">Medical Skills</h5>
+            <h5 className="ps-5">Medical Skills</h5>
             <p className="ms-5 resume">
                 Patient examinations, treatment planning, follow-up and referral, active interaction with patients and staff, 
                 medical documentation, proactive team member within the hospital work force, lab test and radiology procedural ordering.  
