@@ -87,12 +87,12 @@ function Resume() {
             <br/>
             <h6 className="ps-5 italic-text">Programming Languages: </h6>
             <p className="ms-5 resume">
-                C++, C++ builder, Delphi, Python, JavaScript
+                C++, C++ builder, Delphi, Python, JavaScript, TypeScript
             </p>
             <h6 className="ps-5 italic-text">Front-End Technologies:  </h6>
             <p className="ms-5 resume">
                 HTML5, ES6, CSS, Bootstrap, Bulma, JQuery, React, React hooks, JSX, Redux, 
-                Anime.js, Day.js, Handlebars.js, JSON, Fetch, AJAX, JWT, PWA
+                Anime.js, Day.js, Handlebars.js, Next.js, JSON, Fetch, AJAX, JWT, PWA
             </p>
             <h6 className="ps-5 italic-text">Back-End Technologies:   </h6>
             <p className="ms-5 resume">
