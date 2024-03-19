@@ -10,7 +10,7 @@ function Resume() {
             <br />
             <h4 className="ps-5 resume-section">Employment Eligibility</h4>
             <p className="ps-5 resume">
-                Citizen of the United States
+                Citizen of the United States 
             </p>
             <br />
             <h4 className="ps-5 resume-section">Work Experience</h4>
