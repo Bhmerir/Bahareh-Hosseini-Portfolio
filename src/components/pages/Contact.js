@@ -86,10 +86,10 @@ function Contact() {
 
     return (
         <div className="page contact-page">
-            <div className="col-5 contact-form rounded-2 m-5">       
-                <div className="mb-3">
-                    <h5 className="ps-5 email">My Email Address: <span>mer_ir@yahoo.com</span></h5>
-                    <hr/>
+            <div className="col-5 contact-form rounded-2 m-5">  
+                <h5 className="ps-5 email">My Email Address: <span>mer_ir@yahoo.com</span></h5>
+                <hr/>     
+                <div className="mb-3">  
                     <label htmlFor="nameEl" className="form-label">Name</label>
                     <input 
                         value= {name}
